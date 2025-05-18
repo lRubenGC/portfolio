@@ -1,4 +1,5 @@
 ---
+import "../styles/global.css";
 import Header from "../components/Header.astro";
 ---
 
@@ -23,11 +24,12 @@ import Header from "../components/Header.astro";
   }
 
   html {
-    font-family: system-ui, sans-serif;
+    font-family: "Fira Sans", sans-serif;
   }
 
   body {
-	display: flex;
-	justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 </style>
